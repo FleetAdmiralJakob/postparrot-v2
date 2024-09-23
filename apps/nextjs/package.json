@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=20.16.0",
+    "node": ">=20.17.0",
     "pnpm": "9.11.0"
   },
   "packageManager": "pnpm@9.11.0",
@@ -42,7 +42,7 @@
     "@acme/prettier-config": "workspace:*",
     "@acme/tailwind-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
-    "@types/node": "^20.14.15",
+    "@types/node": "^20.16.5",
     "@types/react": "catalog:react18",
     "@types/react-dom": "catalog:react18",
     "dotenv-cli": "^7.4.2",

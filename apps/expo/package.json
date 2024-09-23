@@ -4,7 +4,7 @@
   "private": true,
   "main": "index.ts",
   "engines": {
-    "node": ">=20.16.0",
+    "node": ">=20.17.0",
     "pnpm": "9.11.0"
   },
   "packageManager": "pnpm@9.11.0",
