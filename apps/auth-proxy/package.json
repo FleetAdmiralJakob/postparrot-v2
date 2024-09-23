@@ -2,6 +2,12 @@
   "name": "@acme/auth-proxy",
   "private": true,
   "type": "module",
+    "engines": {
+    "node": ">=20.16.0",
+    "pnpm": "9.11.0"
+  },
+  "packageManager": "pnpm@9.11.0",
+  "engineStrict": true,
   "scripts": {
     "build": "nitro build",
     "clean": "git clean -xdf .cache .nitro .output .turbo .vercel node_modules",

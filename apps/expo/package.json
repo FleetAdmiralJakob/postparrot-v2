@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.ts",
+  "engines": {
+    "node": ">=20.16.0",
+    "pnpm": "9.11.0"
+  },
+  "packageManager": "pnpm@9.11.0",
+  "engineStrict": true,
   "scripts": {
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
     "dev": "expo run:ios",
