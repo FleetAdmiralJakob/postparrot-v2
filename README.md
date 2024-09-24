@@ -71,7 +71,7 @@ tooling
       └─ shared tsconfig you can extend from
 ```
 
-> In this template, we use `@acme` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@acme` to something like `@my-company` or `@project-name`.
+> In this template, we use `@postparrot` as a placeholder for package names. As a user, you might want to replace it with your own organization or project name. You can use find-and-replace to change all the instances of `@postparrot` to something like `@my-company` or `@project-name`.
 
 ## Quick Start
 
@@ -212,7 +212,7 @@ Deploying your Expo application works slightly differently compared to Next.js o
    eas login
 
    # Configure your Expo app
-   cd apps/expo
+   cd apps/native
    eas build:configure
    ```
 
@@ -239,9 +239,9 @@ Deploying your Expo application works slightly differently compared to Next.js o
    The steps below summarize the [Getting started with EAS Update](https://docs.expo.dev/eas-update/getting-started/#configure-your-project) guide.
 
    ```bash
-   # Add the `expo-updates` library to your Expo app
-   cd apps/expo
-   pnpm expo install expo-updates
+   # Add the `native-updates` library to your Expo app
+   cd apps/native
+   pnpm native install native-updates
 
    # Configure EAS Update
    eas update:configure
@@ -252,7 +252,7 @@ Deploying your Expo application works slightly differently compared to Next.js o
 8. Now that everything is ready for updates, let's create a new update for `production` builds. With the `--auto` flag, EAS Update uses your current git branch name and commit message for this update. See [How EAS Update works](https://docs.expo.dev/eas-update/how-eas-update-works/#publishing-an-update) for more information.
 
    ```bash
-   cd apps/expo
+   cd apps/native
    eas update --auto
    ```
 

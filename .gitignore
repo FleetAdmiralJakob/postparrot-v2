@@ -17,12 +17,12 @@ next-env.d.ts
 .nitro/
 .output/
 
-# expo
+# native
 .expo/
 expo-env.d.ts
-apps/expo/.gitignore
-apps/expo/ios
-apps/expo/android
+apps/native/.gitignore
+apps/native/ios
+apps/native/android
 
 # production
 build

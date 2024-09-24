@@ -1,5 +1,5 @@
 {
-  "name": "@acme/eslint-config",
+  "name": "@postparrot/eslint-config",
   "private": true,
   "version": "0.3.0",
   "type": "module",
@@ -30,11 +30,11 @@
     "typescript-eslint": "^8.3.0"
   },
   "devDependencies": {
-    "@acme/prettier-config": "workspace:*",
-    "@acme/tsconfig": "workspace:*",
+    "@postparrot/prettier-config": "workspace:*",
+    "@postparrot/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@acme/prettier-config"
+  "prettier": "@postparrot/prettier-config"
 }
