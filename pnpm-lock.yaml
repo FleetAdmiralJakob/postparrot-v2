@@ -70,8 +70,8 @@ importers:
   apps/auth-proxy:
     dependencies:
       '@auth/core':
-        specifier: 0.35.0
-        version: 0.35.0
+        specifier: 0.35.3
+        version: 0.35.3
     devDependencies:
       '@postparrot/eslint-config':
         specifier: workspace:*
@@ -365,8 +365,8 @@ importers:
   packages/auth:
     dependencies:
       '@auth/core':
-        specifier: 0.35.0
-        version: 0.35.0
+        specifier: 0.35.3
+        version: 0.35.3
       '@auth/drizzle-adapter':
         specifier: ^1.5.3
         version: 1.5.3
