@@ -70,8 +70,8 @@ importers:
   apps/auth-proxy:
     dependencies:
       '@auth/core':
-        specifier: 0.35.3
-        version: 0.35.3
+        specifier: 0.37.0
+        version: 0.37.0
     devDependencies:
       '@postparrot/eslint-config':
         specifier: workspace:*
@@ -365,8 +365,8 @@ importers:
   packages/auth:
     dependencies:
       '@auth/core':
-        specifier: 0.35.3
-        version: 0.35.3
+        specifier: 0.37.0
+        version: 0.37.0
       '@auth/drizzle-adapter':
         specifier: ^1.7.0
         version: 1.7.0
@@ -556,7 +556,7 @@ importers:
         version: 7.37.1(eslint@9.9.0(jiti@2.3.3))
       eslint-plugin-react-hooks:
         specifier: rc
-        version: 5.1.0-rc-77f43893-20241010(eslint@9.9.0(jiti@2.3.3))
+        version: 5.1.0-rc-70fb1363-20241010(eslint@9.9.0(jiti@2.3.3))
       eslint-plugin-turbo:
         specifier: ^2.1.3
         version: 2.1.3(eslint@9.9.0(jiti@2.3.3))
@@ -4506,8 +4506,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@5.1.0-rc-77f43893-20241010:
-    resolution: {integrity: sha512-uirkfiSS+wNf61/vBIj1Nqq2A3ZRJllaMHIYpOYoOIgrWK1vCRkhhl/uDkgSF1+tOc1BqH9Qbsc3PLiT3GvUZQ==}
+  eslint-plugin-react-hooks@5.1.0-rc-70fb1363-20241010:
+    resolution: {integrity: sha512-ACpE3p5orWvc0bh5qsH65ujmM1xrPTSTmB73EGR9fn5QTqNmoHNEA5kC9f4Z9FP9rm0E9tvrFgRw2/UfoqdxIQ==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -12758,7 +12758,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
-  eslint-plugin-react-hooks@5.1.0-rc-77f43893-20241010(eslint@9.9.0(jiti@2.3.3)):
+  eslint-plugin-react-hooks@5.1.0-rc-70fb1363-20241010(eslint@9.9.0(jiti@2.3.3)):
     dependencies:
       eslint: 9.9.0(jiti@2.3.3)
 
