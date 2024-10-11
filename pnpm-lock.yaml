@@ -170,8 +170,8 @@ importers:
         specifier: ~0.75.4
         version: 0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4)
       react-native-css-interop:
-        specifier: ~0.1.14
-        version: 0.1.14(react-native-reanimated@3.15.4(@babel/core@7.25.8)(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1))(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)(tailwindcss@3.4.10(ts-node@10.9.2(@types/node@22.7.4)(typescript@5.5.4)))
+        specifier: ~0.1.15
+        version: 0.1.15(react-native-reanimated@3.15.4(@babel/core@7.25.8)(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1))(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)(tailwindcss@3.4.10(ts-node@10.9.2(@types/node@22.7.4)(typescript@5.5.4)))
       react-native-gesture-handler:
         specifier: ~2.20.0
         version: 2.20.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)
@@ -556,7 +556,7 @@ importers:
         version: 7.37.1(eslint@9.9.0(jiti@2.3.3))
       eslint-plugin-react-hooks:
         specifier: rc
-        version: 5.1.0-rc-77f43893-20241010(eslint@9.9.0(jiti@2.3.3))
+        version: 5.1.0-rc-70fb1363-20241010(eslint@9.9.0(jiti@2.3.3))
       eslint-plugin-turbo:
         specifier: ^2.1.3
         version: 2.1.3(eslint@9.9.0(jiti@2.3.3))
@@ -4506,8 +4506,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@5.1.0-rc-77f43893-20241010:
-    resolution: {integrity: sha512-uirkfiSS+wNf61/vBIj1Nqq2A3ZRJllaMHIYpOYoOIgrWK1vCRkhhl/uDkgSF1+tOc1BqH9Qbsc3PLiT3GvUZQ==}
+  eslint-plugin-react-hooks@5.1.0-rc-70fb1363-20241010:
+    resolution: {integrity: sha512-ACpE3p5orWvc0bh5qsH65ujmM1xrPTSTmB73EGR9fn5QTqNmoHNEA5kC9f4Z9FP9rm0E9tvrFgRw2/UfoqdxIQ==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -6868,6 +6868,22 @@ packages:
       react-native-svg:
         optional: true
 
+  react-native-css-interop@0.1.15:
+    resolution: {integrity: sha512-WrethMEhAUE653NM+RI4nj4MTaBMwlWIuWYpD/soHGUtJSyDPGUrS1NkHhr0vyYMPGGPhHk6iGmfdqetPq0Ncg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      react: '>=18'
+      react-native: '*'
+      react-native-reanimated: '>=3.6.2'
+      react-native-safe-area-context: '*'
+      react-native-svg: '*'
+      tailwindcss: ~3
+    peerDependenciesMeta:
+      react-native-safe-area-context:
+        optional: true
+      react-native-svg:
+        optional: true
+
   react-native-gesture-handler@2.20.0:
     resolution: {integrity: sha512-rFKqgHRfxQ7uSAivk8vxCiW4SB3G0U7jnv7kZD4Y90K5kp6YrU8Q3tWhxe3Rx55BIvSd3mBe9ZWbWVJ0FsSHPA==}
     peerDependencies:
@@ -8330,7 +8346,7 @@ snapshots:
 
   '@babel/generator@7.2.0':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
       jsesc: 2.5.2
       lodash: 4.17.21
       source-map: 0.5.7
@@ -8345,12 +8361,12 @@ snapshots:
 
   '@babel/helper-annotate-as-pure@7.25.7':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
 
   '@babel/helper-builder-binary-assignment-operator-visitor@7.25.7':
     dependencies:
       '@babel/traverse': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
     transitivePeerDependencies:
       - supports-color
 
@@ -8395,19 +8411,19 @@ snapshots:
 
   '@babel/helper-environment-visitor@7.24.7':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
 
   '@babel/helper-member-expression-to-functions@7.25.7':
     dependencies:
       '@babel/traverse': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-module-imports@7.25.7':
     dependencies:
       '@babel/traverse': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
     transitivePeerDependencies:
       - supports-color
 
@@ -8423,7 +8439,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.25.7':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
 
   '@babel/helper-plugin-utils@7.25.7': {}
 
@@ -8455,7 +8471,7 @@ snapshots:
   '@babel/helper-skip-transparent-expression-wrappers@7.25.7':
     dependencies:
       '@babel/traverse': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
     transitivePeerDependencies:
       - supports-color
 
@@ -8469,7 +8485,7 @@ snapshots:
     dependencies:
       '@babel/template': 7.25.7
       '@babel/traverse': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
     transitivePeerDependencies:
       - supports-color
 
@@ -9055,7 +9071,7 @@ snapshots:
       '@babel/helper-module-imports': 7.25.7
       '@babel/helper-plugin-utils': 7.25.7
       '@babel/plugin-syntax-jsx': 7.25.7(@babel/core@7.25.8)
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
     transitivePeerDependencies:
       - supports-color
 
@@ -11712,7 +11728,7 @@ snapshots:
   babel-plugin-react-compiler@0.0.0-experimental-592953e-20240517:
     dependencies:
       '@babel/generator': 7.2.0
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
       chalk: 4.1.2
       invariant: 2.2.4
       pretty-format: 24.9.0
@@ -12758,7 +12774,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
-  eslint-plugin-react-hooks@5.1.0-rc-77f43893-20241010(eslint@9.9.0(jiti@2.3.3)):
+  eslint-plugin-react-hooks@5.1.0-rc-70fb1363-20241010(eslint@9.9.0(jiti@2.3.3)):
     dependencies:
       eslint: 9.9.0(jiti@2.3.3)
 
@@ -14484,7 +14500,7 @@ snapshots:
       '@babel/core': 7.25.8
       '@babel/generator': 7.25.7
       '@babel/parser': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
       flow-enums-runtime: 0.0.6
       metro: 0.80.12(bufferutil@4.0.8)
       metro-babel-transformer: 0.80.12
@@ -14507,7 +14523,7 @@ snapshots:
       '@babel/parser': 7.25.7
       '@babel/template': 7.25.7
       '@babel/traverse': 7.25.7
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
       accepts: 1.3.8
       chalk: 4.1.2
       ci-info: 2.0.0
@@ -15464,6 +15480,23 @@ snapshots:
       '@babel/helper-module-imports': 7.25.7
       '@babel/traverse': 7.25.7
       '@babel/types': 7.25.7
+      debug: 4.3.7
+      lightningcss: 1.27.0
+      react: 18.3.1
+      react-native: 0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4)
+      react-native-reanimated: 3.15.4(@babel/core@7.25.8)(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)
+      semver: 7.6.3
+      tailwindcss: 3.4.10(ts-node@10.9.2(@types/node@22.7.4)(typescript@5.5.4))
+    optionalDependencies:
+      react-native-safe-area-context: 4.11.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)
+    transitivePeerDependencies:
+      - supports-color
+
+  react-native-css-interop@0.1.15(react-native-reanimated@3.15.4(@babel/core@7.25.8)(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1))(react-native-safe-area-context@4.11.0(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1))(react-native@0.75.4(@babel/core@7.25.8)(@babel/preset-env@7.25.8(@babel/core@7.25.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1)(typescript@5.5.4))(react@18.3.1)(tailwindcss@3.4.10(ts-node@10.9.2(@types/node@22.7.4)(typescript@5.5.4))):
+    dependencies:
+      '@babel/helper-module-imports': 7.25.7
+      '@babel/traverse': 7.25.7
+      '@babel/types': 7.25.8
       debug: 4.3.7
       lightningcss: 1.27.0
       react: 18.3.1
