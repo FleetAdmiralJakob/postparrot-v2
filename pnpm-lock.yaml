@@ -380,8 +380,8 @@ importers:
         specifier: ^14.2.15
         version: 14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-auth:
-        specifier: 5.0.0-beta.22
-        version: 5.0.0-beta.22(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: 5.0.0-beta.25
+        version: 5.0.0-beta.25(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       react:
         specifier: catalog:react18
         version: 18.3.1
@@ -556,7 +556,7 @@ importers:
         version: 7.37.1(eslint@9.9.0(jiti@2.3.3))
       eslint-plugin-react-hooks:
         specifier: rc
-        version: 5.1.0-rc-65a56d0e-20241020(eslint@9.9.0(jiti@2.3.3))
+        version: 5.1.0-rc-69d4b800-20241021(eslint@9.9.0(jiti@2.3.3))
       eslint-plugin-turbo:
         specifier: ^2.2.3
         version: 2.2.3(eslint@9.9.0(jiti@2.3.3))
@@ -4463,8 +4463,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@5.1.0-rc-65a56d0e-20241020:
-    resolution: {integrity: sha512-jf51dH0lS5ovn+IyIKEK2KO+pM4Ar7GN8ICBYg4ekd2jc3Gp/0+7DlaM2GHoevenyGZIm6xHRcPhMlPuy/vXjw==}
+  eslint-plugin-react-hooks@5.1.0-rc-69d4b800-20241021:
+    resolution: {integrity: sha512-BlHwxPe59W888jvcwa2dRJXzJf2DWJm9ZMwlpaeobPzW1gaghptM+ISk/E2UK/PTVuDmdkuqZ4je/9v3QE99Gg==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -6092,8 +6092,8 @@ packages:
     resolution: {integrity: sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==}
     engines: {node: '>= 0.4.0'}
 
-  next-auth@5.0.0-beta.22:
-    resolution: {integrity: sha512-QGBo9HGOjmnJBHGXvtFztl0tM5tL0porDlk74HVoCCzXd986ApOlIW3EmiCuho7YzEopgkFiwwmcXpoCrHAtYw==}
+  next-auth@5.0.0-beta.25:
+    resolution: {integrity: sha512-2dJJw1sHQl2qxCrRk+KTQbeH+izFbGFPuJj5eGgBZFYyiYYtvlrBeUw1E/OJJxTRjuxbSYGnCTkUIRsIIW0bog==}
     peerDependencies:
       '@simplewebauthn/browser': ^9.0.1
       '@simplewebauthn/server': ^9.0.2
@@ -12645,7 +12645,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-react-hooks@5.1.0-rc-65a56d0e-20241020(eslint@9.9.0(jiti@2.3.3)):
+  eslint-plugin-react-hooks@5.1.0-rc-69d4b800-20241021(eslint@9.9.0(jiti@2.3.3)):
     dependencies:
       eslint: 9.9.0(jiti@2.3.3)
 
@@ -14582,9 +14582,9 @@ snapshots:
 
   netmask@2.0.2: {}
 
-  next-auth@5.0.0-beta.22(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
+  next-auth@5.0.0-beta.25(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@auth/core': 0.35.3
+      '@auth/core': 0.37.2
       next: 14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
 
