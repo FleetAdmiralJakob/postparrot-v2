@@ -42,7 +42,7 @@
     "react": "catalog:react18",
     "react-dom": "catalog:react18",
     "react-native": "~0.76.0",
-    "react-native-css-interop": "~0.1.19",
+    "react-native-css-interop": "~0.1.20",
     "react-native-gesture-handler": "~2.20.1",
     "react-native-reanimated": "~3.16.1",
     "react-native-safe-area-context": "~4.11.1",
