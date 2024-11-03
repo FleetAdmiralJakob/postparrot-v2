@@ -95,8 +95,8 @@ importers:
         specifier: ^1.13.0
         version: 1.13.0
       nitropack:
-        specifier: ^2.10.0
-        version: 2.10.0(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3)
+        specifier: ^2.10.1
+        version: 2.10.1(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3)
       prettier:
         specifier: 'catalog:'
         version: 3.3.3
@@ -6306,8 +6306,8 @@ packages:
   nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
 
-  nitropack@2.10.0:
-    resolution: {integrity: sha512-i93qB6o2dssqX+Q6lhShGgADTzde6Ev+W23lMe60XhibhHbgsZh2AZX+yIYclHnBsJA/GWvjHkY6nJtx6GRL+g==}
+  nitropack@2.10.1:
+    resolution: {integrity: sha512-q8w/9W9KLKTlFx0wBALecCRlJHT8n93rVilm2LY9/oOuMUeDGJdG2G3xUuJqRnF/Q217kDHJRSIZGJTUIydnCA==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -8495,12 +8495,12 @@ snapshots:
 
   '@babel/helper-annotate-as-pure@7.25.9':
     dependencies:
-      '@babel/types': 7.25.9
+      '@babel/types': 7.26.0
 
   '@babel/helper-builder-binary-assignment-operator-visitor@7.25.9':
     dependencies:
       '@babel/traverse': 7.25.9
-      '@babel/types': 7.25.9
+      '@babel/types': 7.26.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8647,7 +8647,7 @@ snapshots:
   '@babel/helper-simple-access@7.25.9':
     dependencies:
       '@babel/traverse': 7.25.9
-      '@babel/types': 7.25.9
+      '@babel/types': 7.26.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8661,7 +8661,7 @@ snapshots:
   '@babel/helper-skip-transparent-expression-wrappers@7.25.9':
     dependencies:
       '@babel/traverse': 7.25.9
-      '@babel/types': 7.25.9
+      '@babel/types': 7.26.0
     transitivePeerDependencies:
       - supports-color
 
@@ -8708,7 +8708,7 @@ snapshots:
 
   '@babel/parser@7.25.9':
     dependencies:
-      '@babel/types': 7.25.9
+      '@babel/types': 7.26.0
 
   '@babel/parser@7.26.0':
     dependencies:
@@ -14993,7 +14993,7 @@ snapshots:
 
   nice-try@1.0.5: {}
 
-  nitropack@2.10.0(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3):
+  nitropack@2.10.1(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 2.8.2
