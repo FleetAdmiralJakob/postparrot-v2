@@ -95,8 +95,8 @@ importers:
         specifier: ^1.13.0
         version: 1.13.0
       nitropack:
-        specifier: ^2.10.2
-        version: 2.10.2(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3)
+        specifier: ^2.10.3
+        version: 2.10.3(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3)
       prettier:
         specifier: 'catalog:'
         version: 3.3.3
@@ -556,7 +556,7 @@ importers:
         version: 7.37.2(eslint@9.9.0(jiti@2.4.0))
       eslint-plugin-react-hooks:
         specifier: rc
-        version: 5.1.0-rc-4d577fd2-20241104(eslint@9.9.0(jiti@2.4.0))
+        version: 5.1.0-rc-33c7bd9a-20241104(eslint@9.9.0(jiti@2.4.0))
       eslint-plugin-turbo:
         specifier: ^2.2.3
         version: 2.2.3(eslint@9.9.0(jiti@2.4.0))
@@ -4615,8 +4615,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@5.1.0-rc-4d577fd2-20241104:
-    resolution: {integrity: sha512-HHUAprkTjOv2yPBJXcd6epxROnY2iFcBaLq0mxaNc2eeGgbAkcImyNOp8IVWemqmnPJwZgMefgZHgLg5hNXe1Q==}
+  eslint-plugin-react-hooks@5.1.0-rc-33c7bd9a-20241104:
+    resolution: {integrity: sha512-9apCYmPWXFpdOlKX299C0A5WZRzyCw8sPtIadYlWEeD+AXc/7OhwfxcV9xm9OruP2tS0GcrmvrwLmz0+6/whoQ==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -6309,8 +6309,8 @@ packages:
   nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
 
-  nitropack@2.10.2:
-    resolution: {integrity: sha512-DxmaAcT33CpeBGU6ppVfT9g1nbjxxkwa4ZEkMwFrbsvTrShAQ7mZf3bTkdAB18iZmthlSovBpY8ecE1FbNvtQw==}
+  nitropack@2.10.3:
+    resolution: {integrity: sha512-7n+ITF7RbCMwZZzyacxJ9eMCnWuE60omGJEyLM5PQRKS4Vu5w6OOCvf4C6E3UC0UryFuUIwGbJ3M+tIP9Az9OQ==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -13012,7 +13012,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-react-hooks@5.1.0-rc-4d577fd2-20241104(eslint@9.9.0(jiti@2.4.0)):
+  eslint-plugin-react-hooks@5.1.0-rc-33c7bd9a-20241104(eslint@9.9.0(jiti@2.4.0)):
     dependencies:
       eslint: 9.9.0(jiti@2.4.0)
 
@@ -15005,7 +15005,7 @@ snapshots:
 
   nice-try@1.0.5: {}
 
-  nitropack@2.10.2(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3):
+  nitropack@2.10.3(@planetscale/database@1.19.0)(drizzle-orm@0.36.0(@libsql/client-wasm@0.14.0)(@neondatabase/serverless@0.9.5)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.3)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(mysql2@3.11.0)(typescript@5.5.4)(webpack-sources@3.2.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 2.8.2
