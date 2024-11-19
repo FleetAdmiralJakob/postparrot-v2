@@ -45,7 +45,7 @@
     "@types/node": "^22.8.2",
     "@types/react": "catalog:react18",
     "@types/react-dom": "catalog:react18",
-    "dotenv-cli": "^7.4.2",
+    "dotenv-cli": "^7.4.3",
     "eslint": "catalog:",
     "jiti": "^2.4.0",
     "prettier": "catalog:",
