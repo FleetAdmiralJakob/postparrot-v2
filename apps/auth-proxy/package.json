@@ -23,7 +23,7 @@
     "@postparrot/prettier-config": "workspace:*",
     "@postparrot/tailwind-config": "workspace:*",
     "@postparrot/tsconfig": "workspace:*",
-    "@types/node": "^22.10.1",
+    "@types/node": "^22.10.2",
     "eslint": "catalog:",
     "h3": "^1.13.0",
     "nitropack": "^2.10.4",
