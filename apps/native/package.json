@@ -44,7 +44,7 @@
     "react-native": "~0.76.5",
     "react-native-css-interop": "~0.1.22",
     "react-native-gesture-handler": "~2.21.2",
-    "react-native-reanimated": "~3.16.5",
+    "react-native-reanimated": "~3.16.6",
     "react-native-safe-area-context": "~5.0.0",
     "react-native-screens": "~4.4.0",
     "superjson": "2.2.2"
