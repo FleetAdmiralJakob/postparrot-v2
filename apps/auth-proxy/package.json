@@ -4,9 +4,9 @@
   "type": "module",
   "engines": {
     "node": ">=22.13.0",
-    "pnpm": "9.15.3"
+    "pnpm": "9.15.4"
   },
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.4",
   "engineStrict": true,
   "scripts": {
     "build": "nitro build",
