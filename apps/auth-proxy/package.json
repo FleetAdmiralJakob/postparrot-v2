@@ -25,7 +25,7 @@
     "@postparrot/tsconfig": "workspace:*",
     "@types/node": "^22.10.7",
     "eslint": "catalog:",
-    "h3": "^1.13.1",
+    "h3": "^1.14.0",
     "nitropack": "^2.10.4",
     "prettier": "catalog:",
     "typescript": "catalog:"
