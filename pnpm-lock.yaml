@@ -173,8 +173,8 @@ importers:
         specifier: ~0.1.22
         version: 0.1.22(react-native-reanimated@3.16.7(@babel/core@7.26.0)(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1))(react-native-safe-area-context@5.1.0(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1))(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1)(tailwindcss@3.4.10(ts-node@10.9.2(@types/node@22.10.10)(typescript@5.5.4)))
       react-native-gesture-handler:
-        specifier: ~2.22.0
-        version: 2.22.0(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1)
+        specifier: ~2.22.1
+        version: 2.22.1(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1)
       react-native-reanimated:
         specifier: ~3.16.7
         version: 3.16.7(@babel/core@7.26.0)(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1)
@@ -6937,8 +6937,8 @@ packages:
       react-native-svg:
         optional: true
 
-  react-native-gesture-handler@2.22.0:
-    resolution: {integrity: sha512-m5Ps1cOSxSiMP4re+XsbeWcC9DNJuIEjMSmtUxBdyfYEJtdu5iAAiX7KlHHrf2mnK4I/56Ncy4PvPKWBwSpWpQ==}
+  react-native-gesture-handler@2.22.1:
+    resolution: {integrity: sha512-E0C9D+Ia2UZYevoSV9rTKjhFWEVdR/3l4Z3TUoQrI/wewgzDlmJOrYvGW5aMlPUuQF2vHQOdFfAWhVEqFu4tWw==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -15672,7 +15672,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-native-gesture-handler@2.22.0(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1):
+  react-native-gesture-handler@2.22.1(react-native@0.77.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@egjs/hammerjs': 2.0.17
       hoist-non-react-statics: 3.3.2
