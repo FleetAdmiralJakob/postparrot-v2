@@ -5,9 +5,9 @@
   "type": "module",
   "engines": {
     "node": ">=22.13.1",
-    "pnpm": "10.2.0"
+    "pnpm": "10.2.1"
   },
-  "packageManager": "pnpm@10.2.0",
+  "packageManager": "pnpm@10.2.1",
   "engineStrict": true,
   "scripts": {
     "build": "pnpm with-env next build",
