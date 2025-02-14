@@ -10,9 +10,9 @@
   "license": "MIT",
   "engines": {
     "node": ">=22.14.0",
-    "pnpm": "10.3.0"
+    "pnpm": "10.4.0"
   },
-  "packageManager": "pnpm@10.3.0",
+  "packageManager": "pnpm@10.4.0",
   "engineStrict": true,
   "scripts": {
     "clean": "git clean -xdf .cache .turbo node_modules",
