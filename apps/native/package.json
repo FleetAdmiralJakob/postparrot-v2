@@ -50,9 +50,9 @@
     "superjson": "2.2.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.8",
-    "@babel/preset-env": "^7.26.8",
-    "@babel/runtime": "^7.26.7",
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/runtime": "^7.26.9",
     "@postparrot/api": "workspace:*",
     "@postparrot/eslint-config": "workspace:*",
     "@postparrot/prettier-config": "workspace:*",
