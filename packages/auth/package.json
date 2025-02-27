@@ -13,9 +13,9 @@
   "license": "MIT",
   "engines": {
     "node": ">=22.14.0",
-    "pnpm": "10.5.1"
+    "pnpm": "10.5.2"
   },
-  "packageManager": "pnpm@10.5.1",
+  "packageManager": "pnpm@10.5.2",
   "engineStrict": true,
   "scripts": {
     "clean": "git clean -xdf .cache .turbo dist node_modules",
