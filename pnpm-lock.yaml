@@ -22,8 +22,8 @@ catalogs:
       specifier: ^9.21.0
       version: 9.21.0
     prettier:
-      specifier: ^3.5.2
-      version: 3.5.2
+      specifier: ^3.5.3
+      version: 3.5.3
     tailwindcss:
       specifier: ^3.4.17
       version: 3.4.17
@@ -59,7 +59,7 @@ importers:
         version: 2.4.4(@types/node@22.13.8)(typescript@5.8.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       turbo:
         specifier: ^2.4.4
         version: 2.4.4
@@ -99,7 +99,7 @@ importers:
         version: 2.10.4(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -223,7 +223,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       tailwindcss:
         specifier: 'catalog:'
         version: 3.4.17(ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2))
@@ -314,7 +314,7 @@ importers:
         version: 2.4.2
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       tailwindcss:
         specifier: 'catalog:'
         version: 3.4.17(ts-node@10.9.2(@types/node@22.13.8)(typescript@5.8.2))
@@ -357,7 +357,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -406,7 +406,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -446,7 +446,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -501,7 +501,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       react:
         specifier: catalog:react18
         version: 19.0.0
@@ -532,7 +532,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -575,7 +575,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -586,13 +586,13 @@ importers:
     dependencies:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: ^4.4.1
-        version: 4.4.1(prettier@3.5.2)
+        version: 4.4.1(prettier@3.5.3)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       prettier-plugin-tailwindcss:
         specifier: ^0.6.11
-        version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.2))(prettier@3.5.2)
+        version: 0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier@3.5.3)
     devDependencies:
       '@postparrot/tsconfig':
         specifier: workspace:*
@@ -627,7 +627,7 @@ importers:
         version: 9.21.0(jiti@2.4.2)
       prettier:
         specifier: 'catalog:'
-        version: 3.5.2
+        version: 3.5.3
       typescript:
         specifier: 'catalog:'
         version: 5.8.2
@@ -6825,8 +6825,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.5.2:
-    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
+  prettier@3.5.3:
+    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -10074,13 +10074,13 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.2)':
+  '@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3)':
     dependencies:
       '@babel/generator': 7.26.2
       '@babel/parser': 7.26.2
       '@babel/traverse': 7.25.9
       '@babel/types': 7.26.0
-      prettier: 3.5.2
+      prettier: 3.5.3
       semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
@@ -15636,13 +15636,13 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.2))(prettier@3.5.2):
+  prettier-plugin-tailwindcss@0.6.11(@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.3))(prettier@3.5.3):
     dependencies:
-      prettier: 3.5.2
+      prettier: 3.5.3
     optionalDependencies:
-      '@ianvs/prettier-plugin-sort-imports': 4.4.1(prettier@3.5.2)
+      '@ianvs/prettier-plugin-sort-imports': 4.4.1(prettier@3.5.3)
 
-  prettier@3.5.2: {}
+  prettier@3.5.3: {}
 
   pretty-bytes@5.6.0: {}
 
