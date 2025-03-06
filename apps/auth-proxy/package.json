@@ -26,7 +26,7 @@
     "@types/node": "^22.13.9",
     "eslint": "catalog:",
     "h3": "^1.15.1",
-    "nitropack": "^2.11.2",
+    "nitropack": "^2.11.3",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },

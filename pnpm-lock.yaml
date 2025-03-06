@@ -95,8 +95,8 @@ importers:
         specifier: ^1.15.1
         version: 1.15.1
       nitropack:
-        specifier: ^2.11.2
-        version: 2.11.2(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3)
+        specifier: ^2.11.3
+        version: 2.11.3(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3)
       prettier:
         specifier: 'catalog:'
         version: 3.5.3
@@ -6270,8 +6270,8 @@ packages:
   nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
 
-  nitropack@2.11.2:
-    resolution: {integrity: sha512-NyXw88hkrigXYo0iDodEbWdLyv8iF69LAj63eS+FDLg8+IDEKv1y58eMKmzk8vW/hwHoi2aimqHTfsZbqFAWrg==}
+  nitropack@2.11.3:
+    resolution: {integrity: sha512-ArhXs3+39cXXJdgOhhKumEYtFK/n3b0MRWyU/ltDy8KGqke61rH+aoenK/WDlfNu4tX51Wi66/PUa+HMlWE0Sg==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -15098,7 +15098,7 @@ snapshots:
 
   nice-try@1.0.5: {}
 
-  nitropack@2.11.2(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3):
+  nitropack@2.11.3(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 3.0.0
