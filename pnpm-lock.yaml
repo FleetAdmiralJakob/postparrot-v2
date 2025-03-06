@@ -95,8 +95,8 @@ importers:
         specifier: ^1.15.1
         version: 1.15.1
       nitropack:
-        specifier: ^2.11.1
-        version: 2.11.1(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3)
+        specifier: ^2.11.2
+        version: 2.11.2(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3)
       prettier:
         specifier: 'catalog:'
         version: 3.5.3
@@ -4804,8 +4804,8 @@ packages:
   exponential-backoff@3.1.1:
     resolution: {integrity: sha512-dX7e/LHVJ6W3DE1MHWi9S1EYzDESENfLrYohG2G++ovZrYOkm4Knwa0mc1cn84xJOR4KEU0WSchhLbd0UklbHw==}
 
-  exsolve@1.0.1:
-    resolution: {integrity: sha512-Smf0iQtkQVJLaph8r/qS8C8SWfQkaq9Q/dFcD44MLbJj6DNhlWefVuaS21SjfqOsBbjVlKtbCj6L9ekXK6EZUg==}
+  exsolve@1.0.2:
+    resolution: {integrity: sha512-ZEcIMbthn2zeX4/wD/DLxDUjuCltHXT8Htvm/JFlTkdYgWh2+HGppgwwNUnIVxzxP7yJOPtuBAec0dLx6lVY8w==}
 
   external-editor@3.1.0:
     resolution: {integrity: sha512-hMQ4CX1p1izmuLYyZqLMO/qGNw10wSv9QDCPfzXfyFrOaCSSoRfqE1Kf1s5an66J5JZC62NewG+mK49jOCtQew==}
@@ -6270,8 +6270,8 @@ packages:
   nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
 
-  nitropack@2.11.1:
-    resolution: {integrity: sha512-CyoM2KGCjwUMgDPL7YtDZdLK1cCYzhaYImPMPcrqWJoMZJ9UgpWiEmP1Yqjw1qNGe1+1u3kj+GNxx75mh9eovg==}
+  nitropack@2.11.2:
+    resolution: {integrity: sha512-NyXw88hkrigXYo0iDodEbWdLyv8iF69LAj63eS+FDLg8+IDEKv1y58eMKmzk8vW/hwHoi2aimqHTfsZbqFAWrg==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -12086,7 +12086,7 @@ snapshots:
       confbox: 0.1.8
       defu: 6.1.4
       dotenv: 16.4.7
-      exsolve: 1.0.1
+      exsolve: 1.0.2
       giget: 2.0.0
       jiti: 2.4.2
       ohash: 2.0.11
@@ -13408,7 +13408,7 @@ snapshots:
 
   exponential-backoff@3.1.1: {}
 
-  exsolve@1.0.1: {}
+  exsolve@1.0.2: {}
 
   external-editor@3.1.0:
     dependencies:
@@ -15098,7 +15098,7 @@ snapshots:
 
   nice-try@1.0.5: {}
 
-  nitropack@2.11.1(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3):
+  nitropack@2.11.2(@planetscale/database@1.19.0)(drizzle-orm@0.40.0(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(typescript@5.8.2)(webpack-sources@3.2.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@netlify/functions': 3.0.0
@@ -15128,7 +15128,7 @@ snapshots:
       esbuild: 0.25.0
       escape-string-regexp: 5.0.0
       etag: 1.8.1
-      exsolve: 1.0.1
+      exsolve: 1.0.2
       fs-extra: 11.3.0
       globby: 14.1.0
       gzip-size: 7.0.0
@@ -15619,7 +15619,7 @@ snapshots:
   pkg-types@2.1.0:
     dependencies:
       confbox: 0.2.1
-      exsolve: 1.0.1
+      exsolve: 1.0.2
       pathe: 2.0.3
 
   plist@3.1.0:
@@ -17068,7 +17068,7 @@ snapshots:
   unenv@2.0.0-rc.12:
     dependencies:
       defu: 6.1.4
-      exsolve: 1.0.1
+      exsolve: 1.0.2
       ohash: 2.0.11
       pathe: 2.0.3
       ufo: 1.5.4
