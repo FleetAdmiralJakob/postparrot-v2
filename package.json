@@ -3,9 +3,9 @@
   "private": true,
   "engines": {
     "node": ">=22.14.0",
-    "pnpm": "10.6.2"
+    "pnpm": "10.6.3"
   },
-  "packageManager": "pnpm@10.6.2",
+  "packageManager": "pnpm@10.6.3",
   "engineStrict": true,
   "scripts": {
     "build": "turbo run build",
