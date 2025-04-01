@@ -8,9 +8,9 @@
   },
   "engines": {
     "node": ">=22.14.0",
-    "pnpm": "10.7.0"
+    "pnpm": "10.7.1"
   },
-  "packageManager": "pnpm@10.7.0",
+  "packageManager": "pnpm@10.7.1",
   "engineStrict": true,
   "scripts": {
     "clean": "git clean -xdf .cache .turbo node_modules",
