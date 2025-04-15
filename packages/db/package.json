@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@vercel/postgres": "^0.10.0",
-    "drizzle-orm": "^0.41.0",
+    "drizzle-orm": "^0.42.0",
     "drizzle-zod": "^0.7.1",
     "zod": "catalog:"
   },
