@@ -95,8 +95,8 @@ importers:
         specifier: ^1.15.3
         version: 1.15.3
       nitropack:
-        specifier: ^2.11.10
-        version: 2.11.10(@netlify/blobs@8.2.0)(@planetscale/database@1.19.0)(drizzle-orm@0.43.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(webpack-sources@3.2.3)
+        specifier: ^2.11.11
+        version: 2.11.11(@netlify/blobs@8.2.0)(@planetscale/database@1.19.0)(drizzle-orm@0.43.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(webpack-sources@3.2.3)
       prettier:
         specifier: 'catalog:'
         version: 3.5.3
@@ -6654,8 +6654,8 @@ packages:
   nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
 
-  nitropack@2.11.10:
-    resolution: {integrity: sha512-oKWK3Zlwhb7qvehhCOzS0NdBZVFvFJDM2vODS/e6rNS8MBHhzD1iGBq/KAIOamKrmhFEBAkGNGOBYWG3VbnR/A==}
+  nitropack@2.11.11:
+    resolution: {integrity: sha512-KnWkajf2ZIsjr7PNeENvDRi87UdMrn8dRTe/D/Ak3Ud6sbC7ZCArVGeosoY7WZvsvLBN1YAwm//34Bq4dKkAaw==}
     engines: {node: ^16.11.0 || >=17.0.0}
     hasBin: true
     peerDependencies:
@@ -8417,10 +8417,6 @@ packages:
   type-fest@0.7.1:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
     engines: {node: '>=8'}
-
-  type-fest@4.26.1:
-    resolution: {integrity: sha512-yOGpmOAL7CkKe/91I5O3gPICmJNLJ1G4zFYVAsRHg7M64biSnPtRj0WNQt++bRkjYOqjWXrhnUw1utzmVErAdg==}
-    engines: {node: '>=16'}
 
   type-fest@4.40.1:
     resolution: {integrity: sha512-9YvLNnORDpI+vghLU/Nf+zSv0kL47KbVJ1o3sKgoTefl6i+zebxbiDQWoe/oWWqPhIgQdRZRT1KA9sCPL810SA==}
@@ -13234,7 +13230,7 @@ snapshots:
 
   dot-prop@9.0.0:
     dependencies:
-      type-fest: 4.26.1
+      type-fest: 4.40.1
 
   dotenv-cli@8.0.0:
     dependencies:
@@ -15874,7 +15870,7 @@ snapshots:
 
   nice-try@1.0.5: {}
 
-  nitropack@2.11.10(@netlify/blobs@8.2.0)(@planetscale/database@1.19.0)(drizzle-orm@0.43.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(webpack-sources@3.2.3):
+  nitropack@2.11.11(@netlify/blobs@8.2.0)(@planetscale/database@1.19.0)(drizzle-orm@0.43.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)(webpack-sources@3.2.3):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@netlify/functions': 3.1.2(rollup@4.40.0)
@@ -16870,14 +16866,14 @@ snapshots:
     dependencies:
       find-up-simple: 1.0.1
       read-pkg: 9.0.1
-      type-fest: 4.26.1
+      type-fest: 4.40.1
 
   read-pkg@9.0.1:
     dependencies:
       '@types/normalize-package-data': 2.4.4
       normalize-package-data: 6.0.2
       parse-json: 8.3.0
-      type-fest: 4.26.1
+      type-fest: 4.40.1
       unicorn-magic: 0.1.0
 
   readable-stream@2.3.8:
@@ -17839,8 +17835,6 @@ snapshots:
   type-fest@0.21.3: {}
 
   type-fest@0.7.1: {}
-
-  type-fest@4.26.1: {}
 
   type-fest@4.40.1: {}
 
