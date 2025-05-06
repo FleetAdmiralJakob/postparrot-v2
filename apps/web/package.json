@@ -30,7 +30,7 @@
     "@trpc/client": "catalog:",
     "@trpc/react-query": "catalog:",
     "@trpc/server": "catalog:",
-    "geist": "^1.4.1",
+    "geist": "^1.4.2",
     "next": "^14.2.28",
     "react": "catalog:react18",
     "react-dom": "catalog:react18",
