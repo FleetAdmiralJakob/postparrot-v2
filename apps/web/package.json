@@ -42,7 +42,7 @@
     "@postparrot/prettier-config": "workspace:*",
     "@postparrot/tailwind-config": "workspace:*",
     "@postparrot/tsconfig": "workspace:*",
-    "@types/node": "^22.15.16",
+    "@types/node": "^22.15.17",
     "@types/react": "catalog:react18",
     "@types/react-dom": "catalog:react18",
     "dotenv-cli": "^8.0.0",
