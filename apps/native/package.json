@@ -5,9 +5,9 @@
   "main": "index.ts",
   "engines": {
     "node": ">=22.15.0",
-    "pnpm": "10.10.0"
+    "pnpm": "10.11.0"
   },
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "engineStrict": true,
   "scripts": {
     "clean": "git clean -xdf .cache .expo .turbo android ios node_modules",
