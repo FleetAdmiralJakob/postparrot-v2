@@ -12,7 +12,7 @@ catalog:
   prettier: ^3.5.3
   tailwindcss: ^3.4.17
   typescript: ^5.8.3
-  zod: ^3.25.23
+  zod: ^3.25.28
 
 catalogs:
   react18:
