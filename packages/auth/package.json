@@ -24,7 +24,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@auth/core": "0.35.3",
+    "@auth/core": "0.39.1",
     "@auth/drizzle-adapter": "^1.9.1",
     "@postparrot/db": "workspace:*",
     "@t3-oss/env-nextjs": "^0.11.1",
