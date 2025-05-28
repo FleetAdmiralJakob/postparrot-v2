@@ -29,7 +29,7 @@
     "@postparrot/db": "workspace:*",
     "@t3-oss/env-nextjs": "^0.11.1",
     "next": "^15.0.0",
-    "next-auth": "5.0.0-beta.22",
+    "next-auth": "5.0.0-beta.28",
     "react": "catalog:react18",
     "react-dom": "catalog:react18",
     "zod": "catalog:"
