@@ -27,7 +27,7 @@
     "@auth/core": "0.35.3",
     "@auth/drizzle-adapter": "^1.9.1",
     "@postparrot/db": "workspace:*",
-    "@t3-oss/env-nextjs": "^0.11.1",
+    "@t3-oss/env-nextjs": "^0.13.8",
     "next": "^15.0.0",
     "next-auth": "5.0.0-beta.22",
     "react": "catalog:react18",
