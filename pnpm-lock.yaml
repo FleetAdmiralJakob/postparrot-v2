@@ -93,7 +93,7 @@ importers:
         version: 9.27.0(jiti@2.7.0)
       h3:
         specifier: ^1.15.3
-        version: 1.15.9
+        version: 1.15.11
       nitropack:
         specifier: ^2.11.12
         version: 2.13.6(@netlify/blobs@9.1.1)(@planetscale/database@1.19.0)(bare-buffer@3.7.1)(drizzle-orm@0.43.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(gel@2.0.0)(mysql2@3.11.0)(postgres@3.4.4))(mysql2@3.11.0)
@@ -267,7 +267,7 @@ importers:
         specifier: ^1.4.2
         version: 1.9.2(next@15.5.29(@opentelemetry/api@1.9.0)(@types/node@22.20.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       next:
-        specifier: ^15.0.0
+        specifier: ^15.5.29
         version: 15.5.29(@opentelemetry/api@1.9.0)(@types/node@22.20.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: catalog:react18
@@ -377,7 +377,7 @@ importers:
         specifier: ^0.11.1
         version: 0.11.1(typescript@5.8.3)(zod@3.25.32)
       next:
-        specifier: ^15.0.0
+        specifier: ^15.5.29
         version: 15.5.29(@opentelemetry/api@1.9.0)(@types/node@26.6.6)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-auth:
         specifier: 5.0.0-beta.22
@@ -543,7 +543,7 @@ importers:
         specifier: ^1.2.9
         version: 1.4.1(eslint@9.27.0(jiti@2.7.0))
       '@next/eslint-plugin-next':
-        specifier: ^14.2.29
+        specifier: ^14.2.35
         version: 14.2.35
       eslint-plugin-import:
         specifier: ^2.31.0
@@ -4168,9 +4168,6 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001699:
-    resolution: {integrity: sha512-b+uH5BakXZ9Do9iK+CkDmctUSEqZl+SP056vc5usa0PL+ev5OHw003rZXcnjNDv3L8P5j6rwT6C0BPKSikW08w==}
-
   caniuse-lite@1.0.30001826:
     resolution: {integrity: sha512-wTB+9tIbLro/BCXwLuNV1meHE4L9dS6dArMDwgYfNBPMYScqClHyGunhkCSDtHhe/69Xl0sHlKgBVZ+fNsYtWA==}
 
@@ -5458,9 +5455,6 @@ packages:
 
   h3@1.15.11:
     resolution: {integrity: sha512-L3THSe2MPeBwgIZVSH5zLdBBU90TOxarvhK9d04IDY2AmVS8j2Jz2LIWtwsGOU3lu2I5jCN7FNvVfY2+XyF+mg==}
-
-  h3@1.15.9:
-    resolution: {integrity: sha512-H7UPnyIupUOYUQu7f2x7ABVeMyF/IbJjqn20WSXpMdnQB260luADUkSgJU7QTWLutq8h3tUayMQ1DdbSYX5LkA==}
 
   has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
@@ -11461,7 +11455,7 @@ snapshots:
 
   '@swc/helpers@0.5.15':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.9.1
 
   '@t3-oss/env-core@0.11.1(typescript@5.8.3)(zod@3.25.32)':
     dependencies:
@@ -12372,8 +12366,6 @@ snapshots:
   camelcase@5.3.1: {}
 
   camelcase@6.3.0: {}
-
-  caniuse-lite@1.0.30001699: {}
 
   caniuse-lite@1.0.30001826: {}
 
@@ -13847,10 +13839,10 @@ snapshots:
 
   glob@10.3.10:
     dependencies:
-      foreground-child: 3.3.0
+      foreground-child: 3.3.1
       jackspeak: 2.3.6
-      minimatch: 9.0.5
-      minipass: 7.1.2
+      minimatch: 9.0.9
+      minipass: 7.1.3
       path-scurry: 1.11.1
 
   glob@10.4.5:
@@ -13921,18 +13913,6 @@ snapshots:
       duplexer: 0.1.2
 
   h3@1.15.11:
-    dependencies:
-      cookie-es: 1.2.3
-      crossws: 0.3.5
-      defu: 6.1.7
-      destr: 2.0.5
-      iron-webcrypto: 1.2.1
-      node-mock-http: 1.0.5
-      radix3: 1.1.2
-      ufo: 1.6.4
-      uncrypto: 0.1.3
-
-  h3@1.15.9:
     dependencies:
       cookie-es: 1.2.3
       crossws: 0.3.5
@@ -15021,7 +15001,7 @@ snapshots:
     dependencies:
       '@next/env': 15.5.29
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001699
+      caniuse-lite: 1.0.30001826
       postcss: 8.4.31
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
@@ -15046,7 +15026,7 @@ snapshots:
     dependencies:
       '@next/env': 15.5.29
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001699
+      caniuse-lite: 1.0.30001826
       postcss: 8.4.31
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
